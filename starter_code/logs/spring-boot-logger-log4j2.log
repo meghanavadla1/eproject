@@ -1,0 +1,23 @@
+2022-04-15 14:50:18,874 INFO o.s.b.StartupInfoLogger [main] Starting SareetaApplicationTests on PPH-LAP-01257 with PID 3817 (started by meghanavadla in /home/meghanavadla/Documents/e-commerceprojectinweb/submit2/nd035-c4-Security-and-DevOps-master/starter_code)
+2022-04-15 14:50:18,879 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-04-15 14:50:20,137 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-15 14:50:20,258 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102ms. Found 4 repository interfaces.
+2022-04-15 14:50:22,082 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9dedc9a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-15 14:50:22,666 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-15 14:50:23,448 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-15 14:50:23,646 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-15 14:50:23,949 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-15 14:50:23,953 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-04-15 14:50:24,092 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-15 14:50:24,509 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-15 14:50:26,320 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-15 14:50:28,255 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-15 14:50:28,465 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@160d68b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@57c7ec30, org.springframework.security.web.header.HeaderWriterFilter@1c0a143, org.springframework.web.filter.CorsFilter@2af1bf5a, org.springframework.security.web.authentication.logout.LogoutFilter@425a5c2e, com.example.demo.security.JWT_Authentication_Filter@1d77d9c6, com.example.demo.security.JWTAuthen_Verification_Filters@2c5b4b91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5032b2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22a8e87b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51eeae0a, org.springframework.security.web.session.SessionManagementFilter@e356940, org.springframework.security.web.access.ExceptionTranslationFilter@3ba015b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19b33b0d]
+2022-04-15 14:50:29,477 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-15 14:50:29,940 INFO o.s.b.StartupInfoLogger [main] Started SareetaApplicationTests in 11.841 seconds (JVM running for 17.194)
+2022-04-15 14:50:30,064 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-4] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-15 14:50:30,071 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-15 14:50:30,079 INFO c.z.h.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2022-04-15 14:50:30,087 INFO c.z.h.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
